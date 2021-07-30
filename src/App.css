@@ -1,3 +1,35 @@
+:root {
+  --cyan: #2acfcf;
+  --dark-violet: #3b3054;
+  --theme-red: #f46262;
+  --themeGray: 	#bfbfbf;
+  --violetGray: #9e9aa7;
+  --deep-blue: #35323e;
+  --deep-violet: #232127;
+  --body-text-dark: #34313a;
+  --body-text-light: #a3a2aa;
+}
+html,body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: var(--body-text-dark);
+  font-size: 18px;
+}
+button{
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  background: var(--cyan);
+  color:#ffffff;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+button:hover{
+  opacity: 0.8;
+}
+
+
 .App {
   text-align: center;
 }
